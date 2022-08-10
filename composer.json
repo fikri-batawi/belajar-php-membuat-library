@@ -1,0 +1,17 @@
+{
+    "name": "muhammadfikri/belajar-php-membuat-library",
+    "description": "Belajar membuat library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Muhammad Fikri",
+            "email": "fikri2347@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MuhammadFikri\\Belajar\\" : "src/"
+        }
+    }
+}
